@@ -1,0 +1,16 @@
+{
+    "workbench.activityBar.autoHide": false,
+    "workbench.activityBar.compact": false,
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.statusBar.visible": true,
+    "geminicodeassist.chat.automaticScrolling": false,
+    "geminicodeassist.languages": [
+        "*",
+        "cpp",
+        "json",
+        "kotlin",
+        "python",
+        "typescript",
+        "typescriptreact"
+    ]
+}
