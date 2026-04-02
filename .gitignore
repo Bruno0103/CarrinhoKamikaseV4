@@ -5,18 +5,16 @@ node_modules/
 
 # Expo
 .expo/
+.expo-shared/
+.android/
 dist/
 web-build/
 expo-env.d.ts
 
-# Native
-.kotlin/
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
+# Local environment files
+.env
+.env.*
+.env*.local
 
 # Metro
 .metro-health-check*
@@ -25,17 +23,46 @@ expo-env.d.ts
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+pnpm-debug.log
 
-# macOS
+# OS generated files
 .DS_Store
-*.pem
+Thumbs.db
 
-# local env files
-.env*.local
+# IDE / editor settings
+.vscode/
+.idea/
+*.iml
 
-# typescript
+# TypeScript
 *.tsbuildinfo
 
-# generated native folders
-/ios
-/android
+# React Native / Android build
+android/
+android/.gradle/
+android/app/build/
+android/build/
+.gradle/
+/build/
+local.properties
+*.keystore
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# iOS build
+ios/
+ios/Pods/
+ios/build/
+DerivedData/
+*.xcworkspace
+*.xcuserdata
+
+# Kotlin
+.kotlin/
+
+# Other
+*.orig.*
+*.pem
