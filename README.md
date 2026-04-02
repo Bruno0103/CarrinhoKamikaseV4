@@ -1,4 +1,4 @@
-# Carrinho Kamikase V3
+# Carrinho Kamikase V4
 
 Controle remoto móvel para o carrinho Kamikase (ESP32) via Bluetooth.
 
