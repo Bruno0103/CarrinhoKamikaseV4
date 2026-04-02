@@ -37,4 +37,14 @@ Para rodar no celular:
 
 > Dica: em alguns aparelhos Android, você precisa parear o ESP32 nas configurações de Bluetooth antes de conectar pelo app.
 
+## Screenshots
+
+### App
+![App Screenshot 1](README_IMG/App1.jpeg)
+![App Screenshot 2](README_IMG/App2.jpeg)
+
+### Carrinho
+![Carrinho Photo 1](README_IMG/Car1.jpeg)
+![Carrinho Photo 2](README_IMG/Car2.jpeg)
+
 
